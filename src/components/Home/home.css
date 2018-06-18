@@ -1,0 +1,32 @@
+.homeCards {
+    padding: 2rem;
+    background-color: #f2f2f2;
+}
+
+.homeCards__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    margin: 0.4rem;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 3px;
+    background-color: #f7f7f7;    
+    color: #06bccd;    
+}
+
+.card:hover {
+    box-shadow: 0 0 1em  #9e9d9d;
+}
+
+.card__icon {
+    height: 5rem;
+    width: 5rem;
+    padding: 2rem 2.7rem 0.3rem;
+}
+
+.card__name {
+    margin: 0 0 1rem 0;
+}

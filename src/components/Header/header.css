@@ -1,0 +1,95 @@
+.header-space {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #06bccd, #7533e6);
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;   
+    font-style: italic ;
+    font-size: 30px;
+    color: #fff;    
+}
+
+.logo__data {
+    font-weight: 300;
+    align-self: center;
+}
+
+.logo__report {
+    font-weight: 700;
+    align-self: center;
+}
+
+.text {
+    margin: 0;
+    padding: 1.3rem 0 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;    
+}
+
+.links {
+    display: flex;
+    list-style: none;
+}
+
+.link {
+    margin-right: 0.5rem;
+    align-self: center;
+}
+
+.search {
+    height: 1.6rem;
+    border: none;
+    border-radius: 3px;
+    text-align: end;
+    font-style: italic;
+}
+
+.search:hover {
+    box-shadow: 0 0 1em  #2d2853;
+}
+
+.icon {
+    margin: 0.1rem 0 0 0.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  
+    .header-space {
+        padding: 0.8rem 5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+  
+    .header-space {
+        padding: 0.8rem 10rem;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .link {
+        margin-right: 2.2rem;
+        align-self: center;        
+    }
+
+    .icon {
+        width: 1.5rem;
+    }
+}
+
+@media (min-width: 1440px) {
+  
+    .header-space {
+        padding: 2rem 15rem;
+    }
+}
